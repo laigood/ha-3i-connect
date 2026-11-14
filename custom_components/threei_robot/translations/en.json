@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "3irobotix / AllInOne account",
+        "data": {
+          "username": "Account (phone or email)",
+          "password": "Password",
+          "country": "Country code (e.g. CN)",
+          "sign_prefix": "Sign prefix (advanced, optional)",
+          "sign_suffix": "Sign suffix (advanced, optional)"
+        }
+      }
+    },
+    "error": {
+      "sign": "The cloud rejected the request signature (code 889). The sign recipe is not confirmed yet.",
+      "auth": "Login failed. Check credentials and the error code in the log.",
+      "cannot_connect": "Cannot reach the cloud."
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  }
+}

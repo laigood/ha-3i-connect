@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "3irobotix / AllInOne 账号",
+        "data": {
+          "username": "账号（手机号或邮箱）",
+          "password": "密码",
+          "country": "国家/地区代码（如 CN）",
+          "sign_prefix": "签名前缀（高级，可留空）",
+          "sign_suffix": "签名后缀（高级，可留空）"
+        }
+      }
+    },
+    "error": {
+      "sign": "云端拒绝了请求签名（code 889）。签名算法尚未确认，请按说明补齐后再试。",
+      "auth": "登录失败，请检查账号密码，并查看日志中的错误码。",
+      "cannot_connect": "无法连接云端。"
+    },
+    "abort": {
+      "already_configured": "该账号已添加。"
+    }
+  }
+}
